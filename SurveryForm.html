@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Survey Form</title>
+</head>
+
+<body>
+<h1>Welcome to Megan's Survey. Please answer the questions below.</h1>
+<form>
+  <label for="Name">Name:&nbsp;</label>
+  <input type="text" id="Name" name="Name" placeholder="John Doe" title="Enter your name"><br><br>
+  <label for="PhoneNum">Phone Number:&nbsp;</label>
+  <input type="tel" id="PhoneNum" name="PhoneNum" placeholder="123-45-678" title="Enter your Phone Number"><br><br>
+  <label for="EmailAddress">Email Address:&nbsp;</label>
+  <input type="email" id="EmailAddress" name="EmailAddress" placeholder="Jane.Doe@gmail.com" title="Enter your Email"><br><br>
+  <label for="DofB">Date of Birth: &nbsp;&nbsp;</label>
+  <input type="text" id="DofB" name="DofB" placeholder="YYYY-MM-DD" title="Enter your Date of Birth"><br>
+  <p>Gender:</p>
+  <input type="radio" id="male" name="gender" value="male" title="Are you a Male">
+  <label for="male">Male</label> &nbsp;
+  <input type="radio" id="female" name="gender" value="female" title="Are you a Female">
+  <label for="female">Female</label> &nbsp;
+  <input type="radio" id="other" name="gender" value="other" title="Other type of gender">
+  <label for="other">Other</label><br>
+  <p>Favorite Candy</p>
+  <input type="checkbox" id="P1" name="P1" title="Do you like M &#38 M's">
+  <label for="P1"> M &#38 M's </label> &nbsp;	
+  <input type="checkbox" id="P2" name="P2" title="Do you like Smarties">
+  <label for="P2"> Smarties</label> &nbsp;
+  <input type="checkbox" id="P3" name="P3" title="Do you like Jolly Ranchers">
+  <label for="P3"> Jolly Ranchers</label> 
+	
+  <p>Comments:</p>
+  <textarea name="comments" cols="20" rows="4" placeholder="Enter your comments here.." title="Type your comments into the comment box."></textarea>
+  <p align="right"><input type="submit" value="Submit"></p>
+</form>
+	
+</body>
+</html>
